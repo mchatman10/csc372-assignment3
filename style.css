@@ -14,7 +14,7 @@ img {
 }
 
 body {
-    background-image:url("/images/background.png");
+    background-image:url("images/background.png");
     backdrop-filter: blur(10px);
     background-size: cover;
 }
