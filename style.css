@@ -1,0 +1,47 @@
+img {
+    width: 300px;
+    height: auto;
+}
+#flex-container {
+    
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    width: 150px;
+    padding: 30px;
+    border-radius: 50px;
+    color: white;
+}
+
+body {
+    background-image:url("/images/background.jpg");
+    backdrop-filter: blur(10px);
+    background-size: cover;
+}
+h1 {
+    color: black;
+}
+header {
+    font-family: sans-serif;
+    color:darkblue
+}
+
+h3 {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    color: rgb(164, 182, 170);
+}
+
+article {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(80, 0, 0);
+}
+
+aside {
+    font-style: italic;
+    color:rgb(172, 202, 0);
+}
+
+footer {
+    color: rgb(243, 155, 155);
+}
