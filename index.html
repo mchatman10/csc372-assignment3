@@ -11,6 +11,7 @@ CSC 372-01
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Website</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 
 <body>
@@ -48,21 +49,26 @@ CSC 372-01
                 on Saturdays.
             </article>
             <!--3 cards for dishes-->
-            <div id="flex-container">
+            <div id="flex-container" class="dish" data-price="14.99" data-name="Steamed Rice Bowl Dish">
                 <img src="images\dish1a.png" id="flex-container">
                 <caption><strong>Steamed Rice Bowl Dish</strong>Pork cutlet, egg
                     and onions simmered in dashi sauce served over rice.
                 </caption>
+            </div>
+            <div id="flex-container" class="dish" data-price="13.99" data-name="Chicken Yakisoba">
                 <img src="images\dish1b.png" id="flex-container">
                 <caption><strong>Chicken Yakisoba</strong>You can also pick between
                     other various types of ramen and broths.
                 </caption>
+            </div>
+            <div id="flex-container" class="dish" data-price="7.99" data-name="Green Tea Ice Cream">
                 <img src="images\dish1c.png" id="flex-container">
                 <caption><strong>Green Tea Ice Cream</strong>One of their
                     three different ice cream choices.
                 </caption>
-
             </div>
+
+
 
         </section>
 
@@ -83,22 +89,27 @@ CSC 372-01
                 patties. They're open from 11AM-10PM.
             </article>
             <!--3 cards for dishes-->
-            <div id="flex-container">
+            <div id="flex-container" class="dish" data-price="10.99" data-name="Romeo's Chili Dog">
                 <img src="images\dish2a.png" id="flex-container">
                 <caption><strong>Romeo's Chili Dog</strong>The vegan chili,
                     which is also used on their chili cheese fries and tots, is
                     made with a combination of vegan ground beef, beans, and other
                     ingredients.
                 </caption>
+            </div>
+            <div id="flex-container" class="dish" data-price="12.99" data-name="Romeo Mac Burger">
                 <img src="images\dish2b.png" id="flex-container">
                 <caption><strong>Romeo Mac Burger</strong>The Romeo Mac Burger
                     is made with a plant-based patty, topped with mac sauce,
                     onions, and house pickles.
                 </caption>
+            </div>
+            <div id="flex-container" class="dish" data-price="8.99" data-name="Crispy Chicken Kale Salad">
                 <img src="images\dish2c.png" id="flex-container">
                 <caption><strong>Crispy Chicken Kale Salad</strong>Served with
                     Romeo's house-made ranch dressing.
                 </caption>
+
 
             </div>
 
@@ -120,19 +131,24 @@ CSC 372-01
                 11:30AM-10PM.
             </article>
             <!--3 cards for dishes-->
-            <div id="flex-container">
+            <div id="flex-container" class="dish" data-price="18.99" data-name="Tikka Masala">
                 <img src="images\dish3a.png" id="flex-container">
                 <caption><strong>Tikka Masala</strong>Choice of meat marinated in yogurt
                     sauce then grilled in a clay oven before the meat is dipped in a rich silky
                     gravy and simmered for consistency.
                 </caption>
+            </div>
+            <div id="flex-container" class="dish" data-price="14.99" data-name="Dal Tadka">
                 <img src="images\dish3b.png" id="flex-container">
                 <caption><strong>Dal Tadka</strong>Lentil stew simmered in simple spices
                     and tempered.
                 </caption>
-                <img src="images\dish3c.png" id="flex-container">
-                <caption><strong>Garlic Naan</strong>Flour bread baked in clay oven.
-                </caption>
+            </div>
+            <div id="flex-container" class="dish" data-price="3.99" data-name="Garlic Naan">
+            <img src="images\dish3c.png" id="flex-container">
+            <caption><strong>Garlic Naan</strong>Flour bread baked in clay oven.
+            </caption>
+
 
             </div>
 
@@ -154,6 +170,7 @@ CSC 372-01
         <em>Romeo's Vegan Burgers:</em> 336-285-6870
 
     </footer>
+    <script src="favorites.js"></script>
 
 </body>
 
